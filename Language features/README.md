@@ -7,13 +7,13 @@ Write a class that represents an IPv4 address. Implement the functions required 
 Write a program that allows the user to input two IPv4 addresses representing a range and list all the addresses in that range. Extend the structure defined for the previous problem to implement the requested functionality.
 
 **17. Creating a 2D array with basic operations**
-Write a class template that represents a two-dimensional array container with methods for element access (at() and data()), capacity querying, iterators, filling, and swapping. It should be possible to move objects of this type.
+Write a class template that represents a two-dimensional array container with methods for element access (```at()``` and ```data()```), capacity querying, iterators, filling, and swapping. It should be possible to move objects of this type.
 
 **18. Minimum function with any number of arguments**
 Write a function template that can take any number of arguments and returns the
-minimum value of them all, using operator *<* for comparison. Write a variant of this
+minimum value of them all, using ```operator <``` for comparison. Write a variant of this
 function template that can be parameterized with a binary comparison function to use
-instead of ```operator``` *<*.
+instead of ```operator <```.
 
 **19. Adding a range of values to a container**
 Write a general-purpose function that can add any number of elements to the end of a
