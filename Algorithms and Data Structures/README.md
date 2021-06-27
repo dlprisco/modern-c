@@ -91,7 +91,8 @@ Write a function that, given a pair of random-access iterators to define its low
 Write a program that, given a network of nodes and the distances between them, computes
 and displays the shortest distance from a specified node to all the others, as well as the path
 between the start and end node. As input, consider the following undirected graph:
-[graph]!(/utils/graph.png)
+<br>
+![graph](utils/graph.png)
 
 The program output for this graph should be the following:
 ```
