@@ -8,7 +8,19 @@
   Weasel simulation, as described on Wikipedia (see https:/ / en. wikipedia. org/ wiki/
   Weasel_ program), is as follows:
 
+
 */
+
+// In order to compile you should enable -std=c++17 
+
+#include <string_view>
+#include <string>
+#include <random>
+#include <array>
+#include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <thread>
 
 using namespace std;
 
