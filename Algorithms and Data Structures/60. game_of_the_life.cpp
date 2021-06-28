@@ -1,4 +1,11 @@
 // Game of the life
+#include <cstddef>
+#include <random>
+#include <array>
+#include <chrono>
+#include <thread>
+#include <algorithm>
+#include <iostream>
 
 using namespace std;
 
