@@ -8,7 +8,6 @@
   Weasel simulation, as described on Wikipedia (see https:/ / en. wikipedia. org/ wiki/
   Weasel_ program), is as follows:
 
-
 */
 
 // In order to compile you should enable -std=c++17 
@@ -83,10 +82,6 @@ private:
 int main() {
 	weasel w("METHINKS IT IS LIKE A WEASEL");
 	w.run(100);
-
-
-	weasel w("Heeeeelllo world!!!");
-	w.run(185);
 
 	return 0;
 }
