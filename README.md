@@ -8,12 +8,7 @@
 &nbsp; Generally these assignments could be solved in many pogramming language (Java, Python, lisp, etc.). Of course, the intention is to help programmers community master *C ++* and therefore you are expected to solve them in  *C* or *C++*. All the solutions provided in each problem file. However, you can use them as you might solve with your own solution and you can use as reference for its collection of proposed problems.
 
 ### Sections
-&nbsp; The problems in this repo are grouped into different sections. Each section contains problems on similiar or related topics. The problems have different levels of difficulty; some of them are easy, some moderate and some difficult.
-<br>
-<br>
-
-
-&nbsp; At the time of figure out this programs, the c ++ 17 or c ++ 20 version is openly used and proven to work for files and will be for a long time.
+&nbsp; The problems in this repo are grouped into different sections. Each section contains problems on similiar or related topics. The problems have different levels of difficulty; some of them are easy, some moderate and some difficult. At time of figure out this programs, the c ++ 17 or c ++ 20 version is openly used and proven to work for files and will be for a long time.
 
 ## [**Section 1**](https://github.com/ms768/modern-c-/tree/main/Math%20problems)
 **Math Problems**: contains a series of mathematical exercises to warm up towards an introduction to the problems in the following sections.
