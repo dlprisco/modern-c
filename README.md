@@ -1,4 +1,4 @@
-# Modern c++ real-world problems 
+# Modern C++ real-world problems 
 
 
 ## Overview
