@@ -7,8 +7,10 @@
 
 &nbsp; Generally these assignments could be solved in many pogramming language (Java, Python, lisp, etc.). Of course, the intention is to help programmers community master *C ++* and therefore you are expected to solve them in  *C* or *C++*. All the solutions provided in each problem file. However, you can use them as you might solve with your own solution and you can use as reference for its collection of proposed problems.
 
-### Sections
+# Sections
 &nbsp; The problems in this repo are grouped into different sections. Each section contains problems on similiar or related topics. The problems have different levels of difficulty; some of them are easy, some moderate and some difficult. At time of figure out this programs, the c ++ 17 or c ++ 20 version is openly used and proven to work for files and will be for a long time.
+
+<br>
 
 ## [**Section 1**](https://github.com/ms768/modern-c-/tree/main/Math%20problems)
 **Math Problems**: contains a series of mathematical exercises to warm up towards an introduction to the problems in the following sections.
@@ -33,7 +35,7 @@ variety of problems; The chapter ends with two rather fun problems,
 Dawkins' Weasel program and Conway's Game of Life program, where you can learn
 about evolutionary algorithms and cellular automata.
 
-## [*Section 7*](https://github.com/ms768/modern-c-/tree/main/Concurrency)
+## [**Section 7**](https://github.com/ms768/modern-c-/tree/main/Concurrency)
 **Concurrency**: Is where we use threads and asynchronous functions to implement
 general-purpose parallel algorithms, but also solve some real-word problems involving
 concurrency.
