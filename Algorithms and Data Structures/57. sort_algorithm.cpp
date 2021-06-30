@@ -1,5 +1,8 @@
 // Sort algorithm
-
+#include <algorithm>
+#include <array>
+#include <stack>
+#include <vector>
 using namespace std;
 
 template <class RandomIt>
@@ -69,15 +72,15 @@ int main() {
 	array<int, 9> a{ 1,2,3,4,5,6,7,8,9 };
 	quicksort(begin(a), end(a));
 
-	int a[]{ 9,8,7,6,5,4,3,2,1 };
-	quicksort(begin(a), end(a));
+	int a1[]{ 9,8,7,6,5,4,3,2,1 };
+	quicksort(begin(a1), end(a1));
 
-	vector<int> v{ 1,5,3,8,6,2,9,7,4 };
-	quicksort(begin(v), end(v), greater<>());
+	vector<int> v1{ 1,5,3,8,6,2,9,7,4 };
+	quicksort(begin(v1), end(v1), greater<>());
 
 
-	vector<int> v{ 1,5,3,8,6,2,9,7,4 };
-	quicksorti(begin(v), end(v));
-	
+	vector<int> v2{ 1,5,3,8,6,2,9,7,4 };
+	quicksorti(begin(v2), end(v2));
+
 	return 0;
 }

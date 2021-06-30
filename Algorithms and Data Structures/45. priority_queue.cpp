@@ -2,6 +2,12 @@
 
 using namespace std;
 
+#include <vector>
+#include <algorithm>
+#include <iostream>
+
+using namespace std;
+
 template <class T, class Compare = less<typename vector<T>::value_type>>
 class priority_queue {
 	typedef typename vector<T>::value_type value_type;

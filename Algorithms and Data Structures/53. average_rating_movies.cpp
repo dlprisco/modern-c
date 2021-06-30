@@ -10,6 +10,13 @@
 
 */
 
+#include <vector>
+#include <string>
+#include <iostream>
+#include <algorithm>
+#include <iomanip>
+#include <numeric>
+
 using namespace std;
 
 double truncated_mean(vector<int> values, double const percentage) {
@@ -35,6 +42,7 @@ void print_movie_ratings(vector<movie> const & movies) {
 }
 
 int main() {
+    
 	vector<movie> movies{
 		{ 101, "The Matrix", {10, 9, 10, 9, 9, 8, 7, 10, 5, 9, 9, 8} },
 		{ 102, "Gladiator", {10, 5, 7, 8, 9, 8, 9, 10, 10, 5, 9, 8, 10} },

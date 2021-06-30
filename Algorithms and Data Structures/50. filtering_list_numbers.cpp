@@ -10,11 +10,16 @@
 
 */
 
+#include <string>
+#include <string_view>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
 using namespace std;
 
-
 bool starts_with(string_view str, string_view prefix) {
-	return str.gind(prefix) == 0;
+	return str.find(prefix) == 0;
 }
 
 template <typename InputIt>
@@ -31,6 +36,7 @@ vector<string> filter_numbers(vector<string> const & numbers,string const & coun
 }
 
 int main() {
+    
 	vector<string> numbers{
 		"+40744909080",
 		"44 7520 112233",
@@ -39,9 +45,10 @@ int main() {
 		"7555 123456"
 	};
 	auto result = filter_numbers(numbers, "44");
+	
 	for (auto const & number : result) {
 		cout << number << endl;
 	}
-
+	
 	return 0;
 }

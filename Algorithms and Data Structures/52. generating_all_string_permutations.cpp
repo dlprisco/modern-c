@@ -11,7 +11,12 @@
  the range into the first permutation and returns false. Therefore, a non-recursive
  implementation based on next_permuation() looks like this:
 
+
 */
+
+#include <string>
+#include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -37,9 +42,12 @@ void print_permutations_recursive(string str) {
 }
 
 int main() {
-	cout << "non-recursive version" << endl;
+    
+	cout << "# non-recursive version\n" << endl;
 	print_permutations("main");
-	cout << "recursive version" << endl;
+	
+	cout << "# recursive version\n" << endl;
+
 	print_permutations_recursive("main");
 
 	return 0;

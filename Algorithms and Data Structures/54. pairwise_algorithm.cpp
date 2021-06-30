@@ -1,4 +1,9 @@
 // Pairwise algorithm
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <iterator>
+
 using namespace std;
 
 template <typename Input, typename Output>
@@ -25,6 +30,7 @@ int main() {
 	for (auto const & p : result) {
 		cout << '{' << p.first << ',' << p.second << '}' << endl;
 	}
+
 
 	return 0;
 }

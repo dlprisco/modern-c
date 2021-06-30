@@ -8,7 +8,19 @@
  is a common technique – especially in computer graphics – for avoiding flickering.
 
 */
+
 using namespace std;
+
+#include <algorithm>
+#include <chrono>
+#include <thread>
+#include <iostream>
+#include <vector>
+#include <mutex>
+#include <iterator>
+
+//#include <random>
+
 template <typename T>
 class double_buffer {
 	typedef T value_type;

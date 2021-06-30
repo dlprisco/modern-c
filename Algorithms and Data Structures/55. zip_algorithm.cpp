@@ -1,4 +1,8 @@
 // Zip algorithm
+#include <algorithm>
+#include <vector>
+#include <iostream>
+
 using namespace std;
 
 template <typename Input1, typename Input2, typename Output>
@@ -18,10 +22,7 @@ vector<pair<T, U>> zip(vector<T> const & range1, vector<U> const & range2) {
 }
 
 int main() {
-	vector<int> v1{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-	vector<int> v2{ 1, 1, 3, 5, 8, 13, 21 };
-	auto result = zip(v1, v2);
-	for (auto const & p : result) {
-		cout << '{' << p.first << ',' << p.second << '}' << endl;
-	}
+    cout<<"compiler";
+	
+	return 0;
 }

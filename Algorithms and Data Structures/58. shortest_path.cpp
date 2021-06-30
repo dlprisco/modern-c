@@ -1,6 +1,5 @@
 // The shortest path between nodes
 
-
 /*
 
 	To solve the proposed problem you must use the Dijkstra algorithm for finding the shortest
@@ -8,8 +7,12 @@
   nodes, the requirement here is to find the shortest path between one specified node and all
   the others in the graph, which is another version of the algorithm.
 
-
 */
+
+#include <algorithm>
+#include <string>
+#include <boost/graph/adjacency_list.hpp>
+#include <iostream>
 
 using namespace std;
 

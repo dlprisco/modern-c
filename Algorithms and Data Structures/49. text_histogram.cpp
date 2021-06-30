@@ -1,5 +1,14 @@
 // Text histogram
 
+#include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <string_view>
+#include <map>
+#include <algorithm>
+#include <numeric>
+
 using namespace std;
 
 map<char, double> analyze_text(string_view text) {
@@ -19,7 +28,6 @@ map<char, double> analyze_text(string_view text) {
 	return frequencies;
 }
 
-
 int main() {
 	auto result = analyze_text(R"(Lorem ipsum dolor sit amet, consectetur
 		adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -27,4 +35,6 @@ int main() {
 	for (auto const & kvp : result) {
 		cout << kvp.first << " : " << fixed << setw(5) << setfill(' ') << setprecision(2) << kvp.second << endl;
 	}
+	
+	return 0;
 }

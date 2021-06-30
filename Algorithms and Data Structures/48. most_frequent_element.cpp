@@ -1,5 +1,10 @@
 // The most frequent element in a range
 
+#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <map>
+
 using namespace std;
 
 template <typename T>

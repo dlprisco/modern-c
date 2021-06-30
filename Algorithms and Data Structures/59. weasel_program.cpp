@@ -10,6 +10,17 @@
 
 */
 
+// In order to compile you should enable -std=c++17 
+
+#include <string_view>
+#include <string>
+#include <random>
+#include <array>
+#include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <thread>
+
 using namespace std;
 
 class weasel {
@@ -71,10 +82,6 @@ private:
 int main() {
 	weasel w("METHINKS IT IS LIKE A WEASEL");
 	w.run(100);
-
-
-	weasel w("Heeeeelllo world!!!");
-	w.run(185);
 
 	return 0;
 }

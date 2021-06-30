@@ -1,4 +1,11 @@
 // Game of the life
+#include <cstddef>
+#include <random>
+#include <array>
+#include <chrono>
+#include <thread>
+#include <algorithm>
+#include <iostream>
 
 using namespace std;
 
@@ -7,7 +14,8 @@ private:
 	universe() = delete;
 public:
 	enum class seed {
-		random, ten_cell_row
+		random,
+		ten_cell_row
 	};
 public:
 	universe(size_t const width, size_t const height): rows(height), columns(width),grid(width * height), dist(0, 4) {
@@ -141,4 +149,6 @@ int main() {
 	using namespace chrono_literals;
 	universe u(50, 20);
 	u.run(universe::seed::random, 100, 100ms);
+	
+	return 0;
 }
