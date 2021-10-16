@@ -35,7 +35,3 @@ variety of problems; The chapter ends with two rather fun problems,
 Dawkins' Weasel program and Conway's Game of Life program, where you can learn
 about evolutionary algorithms and cellular automata.
 
-## [**Section 7**](https://github.com/ms768/modern-c-/tree/main/Concurrency)
-**Concurrency**: Is where we use threads and asynchronous functions to implement
-general-purpose parallel algorithms, but also solve some real-word problems involving
-concurrency.
