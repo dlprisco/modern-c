@@ -18,10 +18,7 @@
 ## [**Section 2**](https://github.com/ms768/modern-c-/tree/main/Language%20features)
 **Language features**: problems proposed to practice as overloading operators, function, classes.
 
-## [**Section 3**](https://github.com/ms768/modern-c-/tree/main/Streams%20and%20filesystem)
-**Streams and Filesystems**: Covers output stream manipulation and working with files and directories using python os module.
-
-## [**Section 4**](https://github.com/ms768/modern-c-/tree/main/Date%20and%20Time) 
+## [**Section 3**](https://github.com/ms768/modern-c-/tree/main/Date%20and%20Time) 
 **Date and Time**: prepares you for the upcoming C ++ 20 extensions to the chrono
 library, with several calendar and time zone problems that you can solve with the date
 library, on which the new standard additions are based.
