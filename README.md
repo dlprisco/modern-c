@@ -18,20 +18,12 @@
 ## [**Section 2**](https://github.com/ms768/modern-c-/tree/main/Language%20features)
 **Language features**: problems proposed to practice as overloading operators, function, classes.
 
-## [**Section 3**](https://github.com/ms768/modern-c-/tree/main/Strings%20and%20Regular%20Expressions)
-**String and Regular Expressions**: Has serveral problems for string manipulation, such as converting between strings and other data types, splitting and joining strings, and also for working with regex.
-
-## [**Section 4**](https://github.com/ms768/modern-c-/tree/main/Streams%20and%20filesystem)
+## [**Section 3**](https://github.com/ms768/modern-c-/tree/main/Streams%20and%20filesystem)
 **Streams and Filesystems**: Covers output stream manipulation and working with files and directories using python os module.
 
-## [**Section 5**](https://github.com/ms768/modern-c-/tree/main/Date%20and%20Time) 
+## [**Section 4**](https://github.com/ms768/modern-c-/tree/main/Date%20and%20Time) 
 **Date and Time**: prepares you for the upcoming C ++ 20 extensions to the chrono
 library, with several calendar and time zone problems that you can solve with the date
 library, on which the new standard additions are based.
 
-## [**Section 6**](https://github.com/ms768/modern-c-/tree/main/Algorithms%20and%20Data%20Structures)
-**Algorithms and Data Structures**: Is one of the largest chapters and contains a
-variety of problems; The chapter ends with two rather fun problems,
-Dawkins' Weasel program and Conway's Game of Life program, where you can learn
-about evolutionary algorithms and cellular automata.
 
